@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid rgb(226, 223, 223);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    position: relative;
+    top: 5vh;
+    left: 100px;
+    padding: 30px;
+}
+
+.Gander label {
+    color: gray;
+}
+
+.wrapper h2 {
+    text-align: center;
+    color: rgb(50, 167, 50);
+    margin-bottom: 30px;
+    
+}
+
+.wrapper h4 {
+    color: rgb(50, 167, 50);
+    margin-bottom: 5px;
+}
+
+.wrapper .input-group {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.wrapper .input-group .name input  {
+    padding: 10px 0;
+    width: 240px;
+}
+
+.group {
+    display: flex;
+}
+
+.input-group .icon {
+    position: relative;
+    left: -20px;
+}
+
+.wrapper .input-group .name input[type="text"]::placeholder {
+    padding-left: 10px;
+}
+
+.input-group .email input {
+    padding: 10px 0;
+    width: 494px;
+}
+
+.input-group .email .icon {
+    position: relative;
+    left: -25px;
+}
+
+.input-group .email input[type="text"]::placeholder {
+    padding-left: 20px;
+}
+
+.input-group .year input {
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.year-birth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Gander {
+    /* border: 1px solid red; */
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.Gander input {
+    margin: 0 5px;
+}
+
+.Detail .Del input {
+    width: 490px;
+    height: 40px;
+    
+}
+
+.Detail .Del .icon {
+    /* position: relative;
+    left: -20px; */
+    margin-left: -10px;
+}
+
+.card-details {
+    display: flex;
+}
+
+
+.card-details .card-item input  {
+    width:250px;
+    height: 30px
+}
+
+.card-details .card-container select option {
+    margin-top: 10px;
+}
+
+.input-group .input-box button {
+    width: 495px;
+    height: 40px;
+    background-color: rgb(60, 168, 55);
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
